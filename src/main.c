@@ -23,8 +23,8 @@
 /* USER CODE BEGIN Includes */
 #include "stdint.h"
 #include "string.h"
-#include "SEGGER_RTT.h"
-#include "mm_fmt.h"
+//#include "SEGGER_RTT.h"
+//#include "mm_fmt.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,16 +90,16 @@ int main(void)
   HS_GPIO_Init();
   HS_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  SEGGER_RTT_Init();
-  SEGGER_RTT_printf(0, "Hello world ! \n");
+  // SEGGER_RTT_Init();
+  // SEGGER_RTT_printf(0, "Hello world ! \n");
 
-  MString str;
-  mstr_create_empty(&str);
-  mstr_format("Num:{0:u32} \n", 
-  &str, 
-  1, 
-  114514u);
-  SEGGER_RTT_printf(0, "%s", mstr_as_cstr(&str));
+  // MString str;
+  // mstr_create_empty(&str);
+  // mstr_format("Num:{0:u32} \n", 
+  // &str, 
+  // 1, 
+  // 114514u);
+  // SEGGER_RTT_printf(0, "%s", mstr_as_cstr(&str));
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -110,7 +110,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    SEGGER_RTT_printf(0, "The NO.%d print. \n", count);
+    // SEGGER_RTT_printf(0, "The NO.%d print. \n", count);
     count++;
     HAL_Delay(1000);
   }

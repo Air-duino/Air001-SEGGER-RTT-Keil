@@ -73,7 +73,6 @@ dkms.conf
 *.uvguit
 *.uvgui.*
 
-RTE/
 Templates/
 Examples/
 
