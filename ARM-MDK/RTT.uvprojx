@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,AIR001_DEV,</Define>
               <Undefine></Undefine>
-              <IncludePath>..\inc;..\AIR001xx_HAL_Driver\Inc;..\AIR001xx_HAL_Driver\Inc\Legacy;..\RTT\RTT;..\RTT\Config</IncludePath>
+              <IncludePath>..\inc;..\AIR001xx_HAL_Driver\Inc;..\AIR001xx_HAL_Driver\Inc\Legacy;..\RTT\RTT;..\RTT\Config;..\MtFmT\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -478,6 +478,36 @@
               <FileName>SEGGER_RTT_printf.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\RTT\RTT\SEGGER_RTT_printf.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MtFmT</GroupName>
+          <Files>
+            <File>
+              <FileName>mm_fmt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MtFmT\mm_fmt.c</FilePath>
+            </File>
+            <File>
+              <FileName>mm_fmtimp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MtFmT\mm_fmtimp.c</FilePath>
+            </File>
+            <File>
+              <FileName>mm_fmtparse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MtFmT\mm_fmtparse.c</FilePath>
+            </File>
+            <File>
+              <FileName>mm_heap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MtFmT\mm_heap.c</FilePath>
+            </File>
+            <File>
+              <FileName>mm_string.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MtFmT\mm_string.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,0 +1,3 @@
+[submodule "MtFmT"]
+	path = MtFmT
+	url = https://github.com/MtFmT-Lib/MtFmT.git
