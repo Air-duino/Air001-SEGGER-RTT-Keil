@@ -52,7 +52,7 @@
           <OutputName>RTT</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -314,7 +314,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>5</Optim>
+            <Optim>7</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -338,7 +338,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER,AIR001_DEV,</Define>
+              <Define>USE_HAL_DRIVER,AIR001_DEV,_MSTR_USE_MALLOC=1</Define>
               <Undefine></Undefine>
               <IncludePath>..\inc;..\AIR001xx_HAL_Driver\Inc;..\AIR001xx_HAL_Driver\Inc\Legacy;..\RTT\RTT;..\RTT\Config;..\MtFmT\inc</IncludePath>
             </VariousControls>
